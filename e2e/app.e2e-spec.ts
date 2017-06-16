@@ -9,6 +9,6 @@ describe('todoist-extended App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to te!!');
+    expect(page.getParagraphText()).toEqual('Welcome to Todoist Extended!!');
   });
 });
